@@ -6,5 +6,12 @@ const assertEqual = function (actual, expected) {
   }
 };
 
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
+const eqArrays = function (a, b) {
+  if (a[0] === b[0] && a[1] === b[1] && a[2] === b[2]) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
