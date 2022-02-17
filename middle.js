@@ -4,9 +4,9 @@ const assertArraysEqual = function (actual, expected) {
     actual[1] === expected[1] &&
     actual[2] === expected[2]
   ) {
-    console.log(`Assertion Passed: ${actual} === ${expected}`);
+    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
   } else {
-    console.log(`Assertion Failed: ${actual} !== ${expected}`);
+    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
   }
 };
 
